@@ -1,0 +1,366 @@
+body{
+    margin:0;
+    text-align: center;
+    font-family: 'Merriweather',serif;
+    color:#40514E;
+}
+.topcontainer{
+    
+    position:relative;
+    padding-top: 50px;
+}
+h1{
+    
+
+    font-size:4rem;
+    color:#66BFBF;
+    margin:0px auto 0px auto ;  
+    
+    font-family: 'Sacramento', cursive;
+    font-family: 'Montserrat', sans-serif;
+    line-height:2;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color:#66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color:#11999E;
+    
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+    color:#11999E;
+}
+.middle-container{
+
+   margin:100px 0;
+}
+.bottomcontainer{
+   height:200px;
+   width:200px;
+   background-color:#333;
+
+}
+.mechatronics{
+    text-decoration: underline;
+}
+
+
+.profilephoto{
+    width:300px;
+    height:300px;
+    color: aqua;
+}
+.Cimg{
+    width:25%;
+    float: left;
+    margin-right: 30px;
+}
+.pyimg{
+    width:25%;
+    float: right;
+    margin-left: 30px;
+}
+.skill-row{
+    width:50%;
+    margin:90px auto 90px auto;
+    text-align: left;
+    line-height:2;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+  .bottom-container{
+    background-color:#333;
+    height:200px;
+    position:relative;
+  }
+  .footer-link{
+    position: relative;
+    top: 50px;
+    font-size:25px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+  
+ .copyright{
+    margin-bottom: 0;
+    color:#EAF6F6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.75rem;
+    position:absolute;
+    bottom:0;
+    left:50%;
+    transform: translate(-50%, -50%);
+ }
+    
+   
+ 
+ a {
+    text-decoration: none;
+}
+a:hover{
+    color:black;
+}
+.footer-link1{
+    position: relative;
+    top: 50px;
+    margin-right:40px;
+    margin-left:40px;
+    font-size:25px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+}
+.contact-me{
+    line-height: 2;
+    height:300px;
+}
+.textfollowing{
+    margin:0 0 28px 0;
+    position:relative;
+    bottom:40px;
+}
+.finaltext{
+    position:relative;
+    bottom:30px;
+}
+.horizontal_dotted_line {
+    border-bottom: 1px dotted black;
+    width: 80px;
+  }
+.dotted_border{
+    border-bottom: dotted 6px #11999E;
+
+}
+.intro{
+    width:30%;
+    margin:auto;
+}
+p{
+    line-height: 2;
+}
+hr{
+    border:dotted skyblue 6px;
+    border-bottom: none;
+    width:4%;
+    margin:100px auto;
+    
+}
+.MATLABimg{
+    width:25%;
+    float: left;
+    margin-right: 30px; 
+}
+.simulinkimg{
+    width:25%;
+    float: right;
+    margin-left: 30px; 
+}
+.catia_v5_img{
+    width:25%;
+    float: left;
+    margin-right: 30px; 
+}
+.proteusimg{
+    width:25%;
+    float: right;
+    margin-left: 30px; 
+}
+.step7{
+    width:25%;
+    float: left;
+    margin-right: 30px; 
+}
+
+ul {
+    list-style-type: none;
+    position:absolute;
+    top:0px;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color:black;
+    width:100%;
+   
+   
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display:block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+  
+li a:hover {
+    background-color:white;
+    color:black;
+}
+li {
+    float: left;
+   
+}
+  
+li:last-child {
+    border-right: none;
+ }
+.topsection{
+    margin-bottom: 0px;
+    height:200vh;
+}
+
+.tag{
+    position:relative;
+    margin-top: 0px;
+    height:100vh;
+    opacity: 0;
+    transform: translate(0, 25vh);
+    transition: all 1s;
+}
+.tag.visible {
+    margin-top: 0px;
+    opacity: 1;
+    transform: translate(0, 0);
+}
+.navigbar{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+
+}
+.leftbars{
+    float: left;
+    display: flex;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    z-index: 2;
+  }
+  .rightbars{
+    float: left;
+    display: flex;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width:20px;
+    height:20px;
+    z-index: 2;
+  }
+.leftbars5{
+    margin-right: 450px;
+}
+.skill-row1{
+  
+        width:50%;
+        margin:0px auto 90px auto;
+        text-align: left;
+        line-height:2;
+    
+}
+.skill-row2{
+    width:50%;
+    margin:0px auto 90px auto;
+    text-align: left;
+    line-height:2;
+}
+.intro{
+    font-size: 18px;
+}
+.right-texts{
+    float:right;
+    background-color:#333;
+    color:white;
+    width:300px;
+    top:60px;
+    left:10px;
+}
+.left-texts{
+    float:right;
+    background-color:#333;
+    color:white;
+    width:300px;
+    top:58px;
+    right: 10px;
+    text-align: center;
+}
+.linkedinimg{
+    width:36px;
+    height:36px;
+}
+.github{
+    width:36px;
+    height:36px;
+}
+
+
+.twitterimg{
+    width:36px;
+    height:36px;
+}
+.returntop{
+    width:50px;
+    height:50px;
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+.pdfimg{
+    width:70px;
+    height:70px;
+}
+.courses1{
+    text-decoration: none;
+
+}
+a courses1:hover{
+    color:black !important;
+}
+.systemeauto{
+    width:800px;
+    height:470px;
+}
+
+    
+

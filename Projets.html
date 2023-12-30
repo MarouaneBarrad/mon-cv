@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Barrad marouane website
+        </title>
+        <link rel="stylesheet" href="CSS/styles.css">
+        <link rel="icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="move.js"></script>
+      <style>
+        .thanks1{
+             
+               color:white;
+               margin-top: 36px;
+               margin-bottom: 0px;
+              
+        }
+        .thanks2{
+               color:white;
+               margin-top:0px;
+               margin-bottom:10px;
+        }
+      </style>
+    </head>
+    <body>
+    <div class="topcontainer">
+        <ul class="navigbar">
+         <li><a class="leftbars" href="index.html">Home</a></li>
+         <li><a class="leftbars" href="Education.html" target="_blank">Education</a></li>
+         <li><a class="leftbars" href="experiences.html" target="_blank">Experiences</a></li>
+         <li><a class="leftbars"  href="Projets.html">Projets</a></li>
+         <li><a class="leftbars" href="hobbies.html"target="_blank">Intérêts</a></li>
+         <li><a class="leftbars5"  href="mon cv.pdf" download target="_blank">Mon cv</a></li>
+   
+         <li><a class="rightbars" href="https://www.linkedin.com/in/marouane-barrad-17870b208/" target="_blank"><img  src="linkedin.png" alt="Linkedin"></a></li>
+         <li><a class="rightbars" href="https://github.com/MarouaneBarrad" target="_blank"><img  src="github.png" alt="github"></a></li>
+         <li><a class="rightbars" href="https://twitter.com/BrradMarouan" target="_blank"><img  src="twitter.jpg" alt="twitter"></a></li>
+       </ul>
+
+         
+         
+         
+     
+         
+     </div>
+     <h1>Mes projets:</h1>
+     <h3>1).Commande d'une serrure codée par le
+        PIC16F887:</h3>
+        <h3>Description du système:</h3>
+        <p><strong><em>Le système  qu'on a réalisé est une serrure codée à base de PIC soutenue par un 
+            système d’alarme, le PIC est un outil de sécurité qui permet à l’utilisateur d’ouvrir la serrure 
+            (d’une porte où bien d’un coffre) par un code secret, une alarme sonore se déclenche a 
+            l’ouverture et aussi lorsque le code est incorrect après deux tentatives possibles (ce qui se 
+            traduit par le microcontrôleur par un intrus à essayer d’accéder),le système est constitué des blocs suivants:</em></strong></p>
+        
+            <p><strong><em>1).Bloc de commande et de traitement (Unité de commande et de traitement : un 
+                Microcontrôleur PIC16F887)</em></strong>
+            <p><strong><em>2).Bloc d’interfaces (Unité d’entrée : un clavier électronique /Unité de sortie et de 
+                communication : Afficheur LCD)</em></strong>
+            <p><strong><em>3).Bloc des Actionneurs (Moteur servo).</em></strong>
+            <p><strong><em>4).Bloc d'alarme (Buzzer).</em></strong>
+            <h3>Le schéma bloc de la serrure codée:</h3>
+            <img src="PIC16F887.png" alt="PIC16F887">
+            <br>
+            <h3>Missions:</h3>
+            <p><strong><em>1).Débogage et analyse des défauts
+            </em></strong></p>
+            <p><strong><em>2).Analyse de la couverture structurelle et fonctionnelle du code
+            </em></strong></p>
+            <a  href="mini_project_LP_IE.pdf" download target="_blank"><img class="pdfimg" src="pdf.png" alt="pdf">➡️Voici le rapport du projet</a>
+            <h3>2).Étude de 2 capteurs: LDR et DHT22</h3>
+            <h3>Principe de fonctionnement du montage du capteur de luminosité LDR:</h3>
+            <p><strong><em>Le montage permet de mesurer la luminosité à travers le capteur de luminosité LDR ,ainsi l’éclairement 
+                de la lampe change en fonction de la valeur de la luminosité détectée par le capteur ,elle s’allume quand 
+                la valeur de luminosité est inférieure à 500 et s’éteint lorsque cette valeur est supérieure à 500,la valeur 
+                de luminosité est affichée dans La LCD .On utilise Le module I2C LCD 1602A pour simplifier les choses, il 
+                contient 4 broches : on branche son GND et VCC respectivement avec le GND et VCC de l’arduino et 
+                SDA(signal de donnée) avec l’entrée analogique A4 de l’arduino et SCL(signal d’horloge) avec l’entrée 
+                analogique A5 et on branche la LDR en série avec la résistance de 10kohms et la LED avec une résistance 
+                de 330 ohms .</em></strong></p>
+            <h3>Simulation sous ISIS proteus 8:</h3>
+            <img src="LDR.png" alt="LDR">
+            <h3>Simulation sous Thinkercad:</h3>
+            <img src="LDRthinker.png" alt="LDR">
+            <h3>Présentation du capteur DHT22:</h3>
+            <p><strong><em> Le capteur DHT22 est un capteur numérique de température et d’humidité. Il utilise un capteur d’humidité           Capacitif  et une thermistance pour mesurer l’air ambiant et génère un signal numérique sur la broche de           Données.
+            </em></strong></p>
+            <h3>Simulation du Montage du capteur DHT22:</h3>
+            <img src="dht11.png" alt="dht11">
+            <br>
+            <a href="Miniprojetcapteur .pdf" download target="_blank"><img class="pdfimg" src="pdf.png" alt="pdf">➡️Le rapport du projet</a>
+            <div class="contact-me">
+                <h2>Get In Touch</h2>
+                <h3 class="textfollowing">Si vous êtes intéressé ou avez des questions: :</h3>
+                <p class="finaltext">Contactez moi en clickant sur le bouton suivant:</p>
+                <a class="btn" href="contact.html">CONTACTER MOI</a>
+              </div>
+            </div>
+          </section>
+            <br>
+            
+            <div class="bottom-container">
+              <a  href="#top"><img class="returntop" title ="return to top?" src="back to top.png" alt="back"></a>
+             
+  
+              <ul class="right-texts">
+                <li class="right-texts">
+                    Numéro de téléphone:
+                </li>
+                <br>
+                <li class="right-texts">
+                    +212 624075766
+                </li>
+                <br>
+                <li class="right-texts">
+                    Email:
+                </li>
+                <br>
+                <li class="right-texts">
+                    marouanbrrad1@gmail.com
+                </li>
+                
+              </ul>
+            <h2></h2>
+            <h2 class="thanks1">Merci pour</h2>
+            <h2 class="thanks2">votre visite</h2>
+         
+              <ul class="left-texts">
+               <li class="left-texts">Adresse:
+               </li>
+               <br>
+               <li class="left-texts">
+                Rue 9 No 4 hay oued eddahab Meknès 
+               </li>
+               <br>
+               <li class="left-texts">
+                Date de naissance:
+               </li>
+               <br>
+               <li class="left-texts">
+                28/07/2000
+               </li>
+              <br>
+              </ul>
+              
+        
+          
+  
+            
+              <p class="copyright" >© BARRAD Marouane.</p>
+              
+            </div>
+
+
+        
+   </body>
